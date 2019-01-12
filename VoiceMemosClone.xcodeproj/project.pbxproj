@@ -142,7 +142,6 @@
 				9A508C9221E964B500F16470 /* Frameworks */,
 				9A508C9321E964B500F16470 /* Resources */,
 				DB911939729AE459BF17E9D1 /* [CP] Embed Pods Frameworks */,
-				F02B52DCF85FAE2573514F57 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,21 +235,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VoiceMemosClone/Pods-VoiceMemosClone-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F02B52DCF85FAE2573514F57 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VoiceMemosClone/Pods-VoiceMemosClone-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
