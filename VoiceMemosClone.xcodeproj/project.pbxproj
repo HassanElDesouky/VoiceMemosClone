@@ -12,7 +12,7 @@
 		9A508C9E21E964B500F16470 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A508C9C21E964B500F16470 /* Main.storyboard */; };
 		9A508CA021E964B900F16470 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A508C9F21E964B900F16470 /* Assets.xcassets */; };
 		9A508CA321E964B900F16470 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A508CA121E964B900F16470 /* LaunchScreen.storyboard */; };
-		9A508CB021E971D500F16470 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A508CAE21E971D500F16470 /* RecordViewController.swift */; };
+		9A508CB021E971D500F16470 /* RecorderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A508CAE21E971D500F16470 /* RecorderViewController.swift */; };
 		9A508CB321E9763300F16470 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A508CB221E9763300F16470 /* Extensions.swift */; };
 		9A508CB521E97CA200F16470 /* RecordingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A508CB421E97CA200F16470 /* RecordingsViewController.swift */; };
 		9A508CB721E97CCD00F16470 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A508CB621E97CCD00F16470 /* MainViewController.swift */; };
@@ -33,7 +33,7 @@
 		9A508C9F21E964B900F16470 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A508CA221E964B900F16470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A508CA421E964B900F16470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A508CAE21E971D500F16470 /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		9A508CAE21E971D500F16470 /* RecorderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecorderViewController.swift; sourceTree = "<group>"; };
 		9A508CB221E9763300F16470 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		9A508CB421E97CA200F16470 /* RecordingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingsViewController.swift; sourceTree = "<group>"; };
 		9A508CB621E97CCD00F16470 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 				9A508CB621E97CCD00F16470 /* MainViewController.swift */,
 				9A508CB421E97CA200F16470 /* RecordingsViewController.swift */,
 				9A508C9C21E964B500F16470 /* Main.storyboard */,
-				9A508CAE21E971D500F16470 /* RecordViewController.swift */,
+				9A508CAE21E971D500F16470 /* RecorderViewController.swift */,
 				9A508CC521E9961200F16470 /* AudioVisualizerView.swift */,
 				9A508CB221E9763300F16470 /* Extensions.swift */,
 				9A508CBF21E985CD00F16470 /* VoiceMemosClone-Bridging-Header.h */,
@@ -261,7 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A508CB521E97CA200F16470 /* RecordingsViewController.swift in Sources */,
-				9A508CB021E971D500F16470 /* RecordViewController.swift in Sources */,
+				9A508CB021E971D500F16470 /* RecorderViewController.swift in Sources */,
 				9A508C9921E964B500F16470 /* AppDelegate.swift in Sources */,
 				9A508CBE21E983B400F16470 /* RecordButton.swift in Sources */,
 				9A508CB321E9763300F16470 /* Extensions.swift in Sources */,

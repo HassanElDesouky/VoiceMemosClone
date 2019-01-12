@@ -16,9 +16,9 @@ class MainViewController: UIViewController {
             return children.compactMap({ $0 as? RecordingsViewController }).first
         }
     }
-    private var recorderViewController: RecordViewController? {
+    private var recorderViewController: RecorderViewController? {
         get {
-            return children.compactMap({ $0 as? RecordViewController }).first
+            return children.compactMap({ $0 as? RecorderViewController }).first
         }
     }
     
