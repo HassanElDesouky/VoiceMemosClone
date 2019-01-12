@@ -1,9 +1,9 @@
 //
 //  RecordButton.swift
-//  Remelo
+//  RecordButtonTest
 //
-//  Created by Hassan El Desouky on 10/20/18.
-//  Copyright © 2018 Hassan El Desouky. All rights reserved.
+//  Created by Mark Alldritt on 2016-12-19.
+//  Copyright © 2016 Late Night Software Ltd. All rights reserved.
 //
 
 import UIKit

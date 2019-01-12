@@ -74,6 +74,67 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		9A3786A921EAAF5800CC5EA1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9A3786AA21EAAF7E00CC5EA1 /* RecorderView */,
+				9A508CB421E97CA200F16470 /* RecordingsViewController.swift */,
+				9A508CB621E97CCD00F16470 /* MainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9A3786AA21EAAF7E00CC5EA1 /* RecorderView */ = {
+			isa = PBXGroup;
+			children = (
+				9A508CBA21E983B400F16470 /* RecordingButton */,
+				9A508CAE21E971D500F16470 /* RecorderViewController.swift */,
+			);
+			path = RecorderView;
+			sourceTree = "<group>";
+		};
+		9A3786AB21EAAFF900CC5EA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9A508C9C21E964B500F16470 /* Main.storyboard */,
+				9A508CA121E964B900F16470 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9A3786AC21EAB00C00CC5EA1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9A508CB221E9763300F16470 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9A3786AD21EAB01C00CC5EA1 /* Objective-C Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				9A508CBF21E985CD00F16470 /* VoiceMemosClone-Bridging-Header.h */,
+			);
+			path = "Objective-C Bridge";
+			sourceTree = "<group>";
+		};
+		9A3786AE21EAB03B00CC5EA1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9A508C9F21E964B900F16470 /* Assets.xcassets */,
+				9A508CC021E9872900F16470 /* Sound Effects */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9A3786AF21EAB06700CC5EA1 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				9A508CC521E9961200F16470 /* AudioVisualizerView.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
 		9A508C8C21E964B500F16470 = {
 			isa = PBXGroup;
 			children = (
@@ -95,18 +156,13 @@
 		9A508C9721E964B500F16470 /* VoiceMemosClone */ = {
 			isa = PBXGroup;
 			children = (
-				9A508CBA21E983B400F16470 /* RecordingButton */,
 				9A508C9821E964B500F16470 /* AppDelegate.swift */,
-				9A508CB621E97CCD00F16470 /* MainViewController.swift */,
-				9A508CB421E97CA200F16470 /* RecordingsViewController.swift */,
-				9A508C9C21E964B500F16470 /* Main.storyboard */,
-				9A508CAE21E971D500F16470 /* RecorderViewController.swift */,
-				9A508CC521E9961200F16470 /* AudioVisualizerView.swift */,
-				9A508CB221E9763300F16470 /* Extensions.swift */,
-				9A508CBF21E985CD00F16470 /* VoiceMemosClone-Bridging-Header.h */,
-				9A508C9F21E964B900F16470 /* Assets.xcassets */,
-				9A508CC021E9872900F16470 /* Sound Effects */,
-				9A508CA121E964B900F16470 /* LaunchScreen.storyboard */,
+				9A3786AC21EAB00C00CC5EA1 /* Extensions */,
+				9A3786AF21EAB06700CC5EA1 /* Custom Views */,
+				9A3786A921EAAF5800CC5EA1 /* Controllers */,
+				9A3786AB21EAAFF900CC5EA1 /* View */,
+				9A3786AD21EAB01C00CC5EA1 /* Objective-C Bridge */,
+				9A3786AE21EAB03B00CC5EA1 /* Resources */,
 				9A508CA421E964B900F16470 /* Info.plist */,
 			);
 			path = VoiceMemosClone;
@@ -407,7 +463,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.heldesouky.VoiceMemosClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "VoiceMemosClone/VoiceMemosClone-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "VoiceMemosClone/Objective-C Bridge/VoiceMemosClone-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -427,7 +483,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.heldesouky.VoiceMemosClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "VoiceMemosClone/VoiceMemosClone-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "VoiceMemosClone/Objective-C Bridge/VoiceMemosClone-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

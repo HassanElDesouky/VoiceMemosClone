@@ -18,7 +18,6 @@ enum RecorderState {
 
 protocol RecorderViewControllerDelegate: class {
     func didStartRecording()
-    func didAddRecording()
     func didFinishRecording()
 }
 
@@ -200,20 +199,7 @@ class RecorderViewController: UIViewController {
                 }
             }
             
-            var write = false
-            if silent {
-                if ts - self.silenceTs < 0.25 && self.silenceTs > 0 {
-                    write = true
-                } else {
-                    self.audioFile = nil
-                    if let d = self.delegate {
-                        d.didAddRecording()
-                    }
-                }
-            } else {
-                write = true
-                self.silenceTs = ts
-            }
+            let write = true
             if write {
                 if self.audioFile == nil {
                     self.audioFile = self.createAudioRecordFile()

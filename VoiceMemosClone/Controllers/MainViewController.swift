@@ -66,14 +66,6 @@ extension MainViewController: RecorderViewControllerDelegate {
             })
         }
     }
-    
-    func didAddRecording() {
-        if let recordings = self.recordingsViewController {
-            DispatchQueue.main.async {
-                recordings.loadRecordings()
-            }
-        }
-    }
 }
 
 extension MainViewController: RecordingsViewControllerDelegate {
