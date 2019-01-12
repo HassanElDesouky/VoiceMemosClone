@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  RecordingsViewController.swift
 //  VoiceMemosClone
 //
 //  Created by Hassan El Desouky on 1/12/19.
@@ -8,13 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class RecordingsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        // Do any additional setup after loading the view.
     }
 
-
 }
-

@@ -7,21 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0645DB5C690FA2355518169F /* Pods_VoiceMemosClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0066BC6CCD10BE2F11157749 /* Pods_VoiceMemosClone.framework */; };
 		9A508C9921E964B500F16470 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A508C9821E964B500F16470 /* AppDelegate.swift */; };
-		9A508C9B21E964B500F16470 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A508C9A21E964B500F16470 /* ViewController.swift */; };
 		9A508C9E21E964B500F16470 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A508C9C21E964B500F16470 /* Main.storyboard */; };
 		9A508CA021E964B900F16470 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A508C9F21E964B900F16470 /* Assets.xcassets */; };
 		9A508CA321E964B900F16470 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A508CA121E964B900F16470 /* LaunchScreen.storyboard */; };
+		9A508CB021E971D500F16470 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A508CAE21E971D500F16470 /* RecordViewController.swift */; };
+		9A508CB321E9763300F16470 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A508CB221E9763300F16470 /* Extensions.swift */; };
+		9A508CB521E97CA200F16470 /* RecordingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A508CB421E97CA200F16470 /* RecordingsViewController.swift */; };
+		9A508CB721E97CCD00F16470 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A508CB621E97CCD00F16470 /* MainViewController.swift */; };
+		9A508CBD21E983B400F16470 /* RecordButtonKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A508CBB21E983B400F16470 /* RecordButtonKit.swift */; };
+		9A508CBE21E983B400F16470 /* RecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A508CBC21E983B400F16470 /* RecordButton.swift */; };
+		9A508CC321E9872900F16470 /* StartRecording.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9A508CC121E9872900F16470 /* StartRecording.aiff */; };
+		9A508CC421E9872900F16470 /* StopRecording.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9A508CC221E9872900F16470 /* StopRecording.aiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0066BC6CCD10BE2F11157749 /* Pods_VoiceMemosClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoiceMemosClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F2C7FADF52A0751830BC76C /* Pods-VoiceMemosClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceMemosClone.release.xcconfig"; path = "Pods/Target Support Files/Pods-VoiceMemosClone/Pods-VoiceMemosClone.release.xcconfig"; sourceTree = "<group>"; };
+		6F4119673B197B6BDF0E7E19 /* Pods-VoiceMemosClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceMemosClone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VoiceMemosClone/Pods-VoiceMemosClone.debug.xcconfig"; sourceTree = "<group>"; };
 		9A508C9521E964B500F16470 /* VoiceMemosClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceMemosClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A508C9821E964B500F16470 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9A508C9A21E964B500F16470 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9A508C9D21E964B500F16470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A508C9F21E964B900F16470 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A508CA221E964B900F16470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A508CA421E964B900F16470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A508CAE21E971D500F16470 /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		9A508CB221E9763300F16470 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		9A508CB421E97CA200F16470 /* RecordingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingsViewController.swift; sourceTree = "<group>"; };
+		9A508CB621E97CCD00F16470 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9A508CBB21E983B400F16470 /* RecordButtonKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordButtonKit.swift; sourceTree = "<group>"; };
+		9A508CBC21E983B400F16470 /* RecordButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordButton.swift; sourceTree = "<group>"; };
+		9A508CBF21E985CD00F16470 /* VoiceMemosClone-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VoiceMemosClone-Bridging-Header.h"; sourceTree = "<group>"; };
+		9A508CC121E9872900F16470 /* StartRecording.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = StartRecording.aiff; sourceTree = "<group>"; };
+		9A508CC221E9872900F16470 /* StopRecording.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = StopRecording.aiff; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +48,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0645DB5C690FA2355518169F /* Pods_VoiceMemosClone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F3C53CB725CCC98776B6DF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0066BC6CCD10BE2F11157749 /* Pods_VoiceMemosClone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CF0F5C066592756E7B2EEE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F4119673B197B6BDF0E7E19 /* Pods-VoiceMemosClone.debug.xcconfig */,
+				0F2C7FADF52A0751830BC76C /* Pods-VoiceMemosClone.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9A508C8C21E964B500F16470 = {
 			isa = PBXGroup;
 			children = (
 				9A508C9721E964B500F16470 /* VoiceMemosClone */,
 				9A508C9621E964B500F16470 /* Products */,
+				4CF0F5C066592756E7B2EEE9 /* Pods */,
+				3F3C53CB725CCC98776B6DF8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +93,38 @@
 		9A508C9721E964B500F16470 /* VoiceMemosClone */ = {
 			isa = PBXGroup;
 			children = (
+				9A508CBA21E983B400F16470 /* RecordingButton */,
 				9A508C9821E964B500F16470 /* AppDelegate.swift */,
-				9A508C9A21E964B500F16470 /* ViewController.swift */,
+				9A508CB621E97CCD00F16470 /* MainViewController.swift */,
+				9A508CB421E97CA200F16470 /* RecordingsViewController.swift */,
 				9A508C9C21E964B500F16470 /* Main.storyboard */,
+				9A508CAE21E971D500F16470 /* RecordViewController.swift */,
+				9A508CB221E9763300F16470 /* Extensions.swift */,
+				9A508CBF21E985CD00F16470 /* VoiceMemosClone-Bridging-Header.h */,
 				9A508C9F21E964B900F16470 /* Assets.xcassets */,
+				9A508CC021E9872900F16470 /* Sound Effects */,
 				9A508CA121E964B900F16470 /* LaunchScreen.storyboard */,
 				9A508CA421E964B900F16470 /* Info.plist */,
 			);
 			path = VoiceMemosClone;
+			sourceTree = "<group>";
+		};
+		9A508CBA21E983B400F16470 /* RecordingButton */ = {
+			isa = PBXGroup;
+			children = (
+				9A508CBB21E983B400F16470 /* RecordButtonKit.swift */,
+				9A508CBC21E983B400F16470 /* RecordButton.swift */,
+			);
+			path = RecordingButton;
+			sourceTree = "<group>";
+		};
+		9A508CC021E9872900F16470 /* Sound Effects */ = {
+			isa = PBXGroup;
+			children = (
+				9A508CC121E9872900F16470 /* StartRecording.aiff */,
+				9A508CC221E9872900F16470 /* StopRecording.aiff */,
+			);
+			path = "Sound Effects";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +134,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A508CA721E964B900F16470 /* Build configuration list for PBXNativeTarget "VoiceMemosClone" */;
 			buildPhases = (
+				589B5D1F6BA9FE66BE6E0589 /* [CP] Check Pods Manifest.lock */,
 				9A508C9121E964B500F16470 /* Sources */,
 				9A508C9221E964B500F16470 /* Frameworks */,
 				9A508C9321E964B500F16470 /* Resources */,
+				DB911939729AE459BF17E9D1 /* [CP] Embed Pods Frameworks */,
+				F02B52DCF85FAE2573514F57 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,19 +190,80 @@
 			files = (
 				9A508CA321E964B900F16470 /* LaunchScreen.storyboard in Resources */,
 				9A508CA021E964B900F16470 /* Assets.xcassets in Resources */,
+				9A508CC321E9872900F16470 /* StartRecording.aiff in Resources */,
+				9A508CC421E9872900F16470 /* StopRecording.aiff in Resources */,
 				9A508C9E21E964B500F16470 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		589B5D1F6BA9FE66BE6E0589 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VoiceMemosClone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB911939729AE459BF17E9D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VoiceMemosClone/Pods-VoiceMemosClone-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PRTween/PRTween.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PRTween.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VoiceMemosClone/Pods-VoiceMemosClone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F02B52DCF85FAE2573514F57 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VoiceMemosClone/Pods-VoiceMemosClone-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9A508C9121E964B500F16470 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A508C9B21E964B500F16470 /* ViewController.swift in Sources */,
+				9A508CB521E97CA200F16470 /* RecordingsViewController.swift in Sources */,
+				9A508CB021E971D500F16470 /* RecordViewController.swift in Sources */,
 				9A508C9921E964B500F16470 /* AppDelegate.swift in Sources */,
+				9A508CBE21E983B400F16470 /* RecordButton.swift in Sources */,
+				9A508CB321E9763300F16470 /* Extensions.swift in Sources */,
+				9A508CB721E97CCD00F16470 /* MainViewController.swift in Sources */,
+				9A508CBD21E983B400F16470 /* RecordButtonKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +407,7 @@
 		};
 		9A508CA821E964B900F16470 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F4119673B197B6BDF0E7E19 /* Pods-VoiceMemosClone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +419,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.heldesouky.VoiceMemosClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VoiceMemosClone/VoiceMemosClone-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,6 +427,7 @@
 		};
 		9A508CA921E964B900F16470 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F2C7FADF52A0751830BC76C /* Pods-VoiceMemosClone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -309,6 +439,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.heldesouky.VoiceMemosClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VoiceMemosClone/VoiceMemosClone-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
