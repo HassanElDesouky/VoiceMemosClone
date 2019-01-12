@@ -42,6 +42,10 @@
                         <viewLayoutGuide key="safeArea" id="1H6-wh-wTI"/>
                     </view>
                     <navigationItem key="navigationItem" title="Voice Memos" id="02X-gc-frG"/>
+                    <connections>
+                        <outlet property="recorderView" destination="63S-hJ-wSb" id="MOA-de-bve"/>
+                        <outlet property="recordingsView" destination="p0o-yj-w7e" id="8kO-es-Rfy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LFb-v8-3Rq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -58,7 +62,15 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="1H5-Pv-eeX">
                                 <rect key="frame" x="0.0" y="44" width="375" height="560"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Spz-eu-acg" id="P24-ov-bME"/>
+                                    <outlet property="delegate" destination="Spz-eu-acg" id="KFG-yK-brt"/>
+                                </connections>
                             </tableView>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T5P-5c-3Km" userLabel="Fade View">
+                                <rect key="frame" x="0.0" y="44" width="375" height="560"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.45005904796511625" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -66,14 +78,22 @@
                             <constraint firstItem="1H5-Pv-eeX" firstAttribute="bottom" secondItem="sf5-xn-ybn" secondAttribute="bottom" id="DkG-Dp-bRl"/>
                             <constraint firstItem="1H5-Pv-eeX" firstAttribute="trailing" secondItem="sf5-xn-ybn" secondAttribute="trailing" id="JZU-5w-HA9"/>
                             <constraint firstItem="1H5-Pv-eeX" firstAttribute="top" secondItem="sf5-xn-ybn" secondAttribute="top" id="W9q-l8-xp3"/>
+                            <constraint firstItem="T5P-5c-3Km" firstAttribute="leading" secondItem="sf5-xn-ybn" secondAttribute="leading" id="WW6-9p-DN9"/>
+                            <constraint firstItem="sf5-xn-ybn" firstAttribute="bottom" secondItem="T5P-5c-3Km" secondAttribute="bottom" id="XZI-tO-I42"/>
+                            <constraint firstItem="sf5-xn-ybn" firstAttribute="trailing" secondItem="T5P-5c-3Km" secondAttribute="trailing" id="ceb-wZ-hsP"/>
+                            <constraint firstItem="T5P-5c-3Km" firstAttribute="top" secondItem="sf5-xn-ybn" secondAttribute="top" id="yC6-yS-miL"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="sf5-xn-ybn"/>
                     </view>
                     <navigationItem key="navigationItem" title="Voice Memos" id="5Gt-su-2oL"/>
+                    <connections>
+                        <outlet property="fadeView" destination="T5P-5c-3Km" id="pOg-Wr-EVJ"/>
+                        <outlet property="tableView" destination="1H5-Pv-eeX" id="why-jQ-3Ax"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Da0-L1-VGJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1926" y="90"/>
+            <point key="canvasLocation" x="1844" y="-74"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="w1s-Rm-e22">
@@ -100,14 +120,29 @@
                     <view key="view" contentMode="scaleToFill" id="0xq-Vt-yCm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7is-4h-G2V" userLabel="Fade View">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.45187590843023256" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="7is-4h-G2V" firstAttribute="top" secondItem="0xq-Vt-yCm" secondAttribute="top" id="2KZ-bt-dpj"/>
+                            <constraint firstItem="sjT-fx-ms6" firstAttribute="trailing" secondItem="7is-4h-G2V" secondAttribute="trailing" id="bbt-gJ-9cP"/>
+                            <constraint firstItem="7is-4h-G2V" firstAttribute="leading" secondItem="sjT-fx-ms6" secondAttribute="leading" id="co0-Hx-KzW"/>
+                            <constraint firstAttribute="bottom" secondItem="7is-4h-G2V" secondAttribute="bottom" id="vn3-5F-iei"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="sjT-fx-ms6"/>
                     </view>
                     <size key="freeformSize" width="375" height="150"/>
+                    <connections>
+                        <outlet property="fadeView" destination="7is-4h-G2V" id="FOq-AO-qi1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AkC-on-2Ku" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1926" y="-469"/>
+            <point key="canvasLocation" x="1844" y="301"/>
         </scene>
     </scenes>
 </document>

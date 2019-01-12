@@ -20,6 +20,7 @@
 		9A508CBE21E983B400F16470 /* RecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A508CBC21E983B400F16470 /* RecordButton.swift */; };
 		9A508CC321E9872900F16470 /* StartRecording.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9A508CC121E9872900F16470 /* StartRecording.aiff */; };
 		9A508CC421E9872900F16470 /* StopRecording.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9A508CC221E9872900F16470 /* StopRecording.aiff */; };
+		9A508CC621E9961200F16470 /* AudioVisualizerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A508CC521E9961200F16470 /* AudioVisualizerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		9A508CBF21E985CD00F16470 /* VoiceMemosClone-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VoiceMemosClone-Bridging-Header.h"; sourceTree = "<group>"; };
 		9A508CC121E9872900F16470 /* StartRecording.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = StartRecording.aiff; sourceTree = "<group>"; };
 		9A508CC221E9872900F16470 /* StopRecording.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = StopRecording.aiff; sourceTree = "<group>"; };
+		9A508CC521E9961200F16470 /* AudioVisualizerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioVisualizerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				9A508CB421E97CA200F16470 /* RecordingsViewController.swift */,
 				9A508C9C21E964B500F16470 /* Main.storyboard */,
 				9A508CAE21E971D500F16470 /* RecordViewController.swift */,
+				9A508CC521E9961200F16470 /* AudioVisualizerView.swift */,
 				9A508CB221E9763300F16470 /* Extensions.swift */,
 				9A508CBF21E985CD00F16470 /* VoiceMemosClone-Bridging-Header.h */,
 				9A508C9F21E964B900F16470 /* Assets.xcassets */,
@@ -264,6 +267,7 @@
 				9A508CB321E9763300F16470 /* Extensions.swift in Sources */,
 				9A508CB721E97CCD00F16470 /* MainViewController.swift in Sources */,
 				9A508CBD21E983B400F16470 /* RecordButtonKit.swift in Sources */,
+				9A508CC621E9961200F16470 /* AudioVisualizerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
