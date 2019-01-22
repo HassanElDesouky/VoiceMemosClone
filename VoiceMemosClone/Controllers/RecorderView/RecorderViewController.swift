@@ -51,6 +51,17 @@ class RecorderViewController: UIViewController {
         setupAudioView()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        let notificationName = AVAudioSession.interruptionNotification
+        NotificationCenter.default.addObserver(self, selector: #selector(handleRecording(_:)), name: notificationName, object: nil)
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        NotificationCenter.default.removeObserver(self)
+    }
+    
     //MARK:- Setup Methods
     fileprivate func setupHandelView() {
         handleView.layer.cornerRadius = 2.5
@@ -297,6 +308,20 @@ class RecorderViewController: UIViewController {
         } catch let error as NSError {
             print(error.localizedDescription)
             return nil
+        }
+    }
+    
+    // MARK:- Handle interruption
+    @objc func handleInterruption(notification: Notification) {
+        guard let userInfo = notification.userInfo else { return }
+        guard let key = userInfo[AVAudioSessionInterruptionTypeKey] as? NSNumber
+            else { return }
+        if key.intValue == 1 {
+            DispatchQueue.main.async {
+                if self.isRecording() {
+                    self.stopRecording()
+                }
+            }
         }
     }
     

@@ -198,6 +198,7 @@
 				9A508C9221E964B500F16470 /* Frameworks */,
 				9A508C9321E964B500F16470 /* Resources */,
 				DB911939729AE459BF17E9D1 /* [CP] Embed Pods Frameworks */,
+				E47D6265BCBA06FE898EE190 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -291,6 +292,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VoiceMemosClone/Pods-VoiceMemosClone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E47D6265BCBA06FE898EE190 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VoiceMemosClone/Pods-VoiceMemosClone-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -457,10 +473,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UC8UZFR7L3;
 				INFOPLIST_FILE = VoiceMemosClone/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.heldesouky.VoiceMemosClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "VoiceMemosClone/Objective-C Bridge/VoiceMemosClone-Bridging-Header.h";
@@ -477,10 +490,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UC8UZFR7L3;
 				INFOPLIST_FILE = VoiceMemosClone/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.heldesouky.VoiceMemosClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "VoiceMemosClone/Objective-C Bridge/VoiceMemosClone-Bridging-Header.h";

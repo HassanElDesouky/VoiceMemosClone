@@ -4,13 +4,9 @@ PODS:
 DEPENDENCIES:
   - PRTween (~> 0.1)
 
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - PRTween
-
 SPEC CHECKSUMS:
   PRTween: 6c58c7e32ebcf31e33e6a6e6bc727ebef3b668ef
 
 PODFILE CHECKSUM: 5fdef9aad248b29d91d1d73eac145201af893209
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.4.0
