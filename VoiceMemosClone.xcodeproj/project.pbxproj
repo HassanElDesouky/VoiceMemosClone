@@ -471,10 +471,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UC8UZFR7L3;
+				DEVELOPMENT_TEAM = PHZ3Z3YJ85;
 				INFOPLIST_FILE = VoiceMemosClone/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.heldesouky.VoiceMemosClone;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ws.feras.VoiceMemos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "VoiceMemosClone/Objective-C Bridge/VoiceMemosClone-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
@@ -488,10 +491,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UC8UZFR7L3;
+				DEVELOPMENT_TEAM = PHZ3Z3YJ85;
 				INFOPLIST_FILE = VoiceMemosClone/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.heldesouky.VoiceMemosClone;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ws.feras.VoiceMemos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "VoiceMemosClone/Objective-C Bridge/VoiceMemosClone-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
