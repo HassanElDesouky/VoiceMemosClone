@@ -174,4 +174,18 @@ extension RecordingsViewController: UITableViewDelegate, UITableViewDataSource {
         return cell!
         
     }
+    
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            let filemanager = FileManager.default
+            let recording = self.recordings[indexPath.row]
+            do {
+                try filemanager.removeItem(at: recording.path)
+                self.recordings.remove(at: indexPath.row)
+                self.tableView.reloadData()
+            }catch(let err){
+                print("Error while deleteing \(err)")
+            }
+        }
+    }
 }

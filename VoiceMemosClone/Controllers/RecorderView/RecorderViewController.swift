@@ -106,7 +106,9 @@ class RecorderViewController: UIViewController {
     
     //MARK:- Actions
     @objc func handleRecording(_ sender: RecordButton) {
+        var defaultFrame: CGRect = CGRect(x: 0, y: 24, width: view.frame.width, height: 135)
         if recordButton.isRecording {
+            defaultFrame = self.view.frame
             audioView.isHidden = false
             UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 1, initialSpringVelocity: 1, options: .curveEaseOut, animations: {
                 self.handleView.alpha = 1
@@ -122,7 +124,7 @@ class RecorderViewController: UIViewController {
                 self.handleView.alpha = 0
                 self.timeLabel.alpha = 0
                 self.audioView.alpha = 0
-                self.view.frame = CGRect(x: 0, y: 0, width: self.view.bounds.width, height: 150)
+                self.view.frame = defaultFrame
                 self.view.layoutIfNeeded()
             }, completion: nil)
             self.stopRecording()
